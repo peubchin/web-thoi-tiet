@@ -8,7 +8,7 @@ import OtherLocations from './OtherLocations';
 import useWeatherInfo from '../../hooks/useWeatherInfo.js';
 import ErrorPage from '../../pages/ErrorPage.jsx';
 import { WeatherInfoContext } from '../../App.jsx';
-import NewsCategories from './News.jsx';
+import NewsCategories from '../News/News.jsx';
 
 function LoadingShowWeather() {
   return (

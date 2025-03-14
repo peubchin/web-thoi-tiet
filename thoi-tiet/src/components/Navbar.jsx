@@ -77,7 +77,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/"
+                to="/tin-tuc"
                 className="nav-link"
               >
                 Tin tuc

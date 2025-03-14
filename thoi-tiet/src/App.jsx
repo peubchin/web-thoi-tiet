@@ -1,6 +1,6 @@
 import './App.css';
 import styles from './styles/layout.module.css';
-import { createContext } from 'react';
+import { createContext, useEffect, useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Chart } from 'chart.js/auto';
 import { CategoryScale } from 'chart.js/auto';
@@ -15,7 +15,7 @@ const WeatherInfoContext = createContext(null);
 
 function App() {
   const locationOpts = useLocationOpts();
-
+  
   return (
     <div>
       <AdPopup />

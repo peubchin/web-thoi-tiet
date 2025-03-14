@@ -7,7 +7,7 @@ import { useContext } from 'react';
 import { ModeContext } from '../../providers/AppProvider.jsx';
 import useRandomLocations from '../../hooks/useRandomLocations.js';
 import PropTypes from 'prop-types';
-import NewsCategories from './News.jsx';
+import NewsCategories from '../News/News.jsx';
 
 function LoadingLocation() {
   return (

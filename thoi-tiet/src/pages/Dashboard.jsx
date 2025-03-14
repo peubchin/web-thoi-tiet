@@ -67,7 +67,7 @@ function SidebarContent() {
         </div>
         <div data-bs-dismiss="offcanvas">
           <Link
-            to="/dashboard/chart"
+            to="/quan-ly/tin-tuc"
             className="d-block p-2 rounded"
           >
             <i className="bi bi-newspaper"></i>&nbsp;Tin tức

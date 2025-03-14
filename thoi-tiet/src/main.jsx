@@ -16,6 +16,8 @@ import Role from './components/auth/Role.jsx';
 import Register from './pages/Register.jsx';
 import Overview from './components/dash/Overview.jsx';
 import LocationDash from './components/dash/LocationDash.jsx';
+import NewsCategories from './components/News/News.jsx';
+import NewsDash from './components/dash/NewsDash.jsx';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,7 @@ const router = createBrowserRouter([
       { index: true, element: <LocationList /> },
       { path: '/vi-tri-hien-tai', element: <ShowWeather /> },
       { path: '/chi-tiet/:locationCode', element: <ShowWeather /> },
+      { path: '/tin-tuc', element: <NewsCategories /> },
     ],
   },
   {
@@ -40,6 +43,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Overview /> },
       { path: 'khu-vuc', element: <LocationDash /> },
+      { path: 'tin-tuc', element: <NewsDash /> },
     ],
   },
   {
